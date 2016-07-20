@@ -17,7 +17,7 @@ export default class App extends Component {
     this.setState({ // 设置新状态
       count: ++this.state.count
     })
-    // 调用服务器端 method
+    // 调用服务器端 method, 保存点击次数到服务器端 mongodb 数据库
     Meteor.call('saveCount', this.state.count)
   }
   render() {

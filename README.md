@@ -4,6 +4,7 @@
 
 ### 安装
 
+1. 安装 Meteor 1.3+
 1. git clone 或者下载该例子
 2. 在程序的目录运行 meteor npm install 命名，安装 npm 包
 
@@ -13,4 +14,6 @@
 
 ### 解释
 
-Meteor 利用 pub、sub 机制完成了前端数据和后端数据库的自动同步；React 配合 Meteor，利用 mixin 自动更新同步到的数据。
+* Meteor 利用 pub、sub 机制完成了前端数据和后端数据库的自动同步
+
+* React 配合 Meteor，利用 mixin 自动更新同步到的数据
