@@ -22,7 +22,7 @@ export default class App extends Component {
   }
   render() {
     return (
-      <div className="container">
+      <div>
         <header>
           <h1>Click below button to try reactive programming 相应式编程</h1>
         </header>
